@@ -1,0 +1,42 @@
+{
+  "name": "nwjs-babylonjs-glow-demo",
+  "version": "1.0.0",
+  "description": "nwjs-babylonjs-glow-demo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarceyLloyd/NWJS.Examples.git"
+  },
+  "main": "src/index.htm",
+  "xchromium-args": "--disable-devtools",
+  "scripts": {
+    "build": "build.bat",
+    "watch": "webpack --watch",
+    "pack": "pack.bat"
+  },
+  "author": "Darcey@AllForTheCode.co.uk",
+  "license": "ISC",
+  "window": {
+    "title": "Darcey@AllForTheCode.co.uk BabylonJS Glow Demo",
+    "width": 800,
+    "height": 600,
+    "frame": true,
+    "position": "center",
+    "always_on_top": true,
+    "fullscreen": false,
+    "resizable": true
+  },
+  "webkit": {
+    "plugin": false
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.5",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "node-builder": "0.0.3",
+    "nwjs": "^1.4.2",
+    "webpack": "^1.13.2"
+  }
+}

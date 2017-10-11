@@ -1,0 +1,36 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#email {
+    z-index: 10;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background: RGBA(0,0,0,0.5);
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#fps {
+    z-index: 10;
+    position: absolute;
+    right: 125px;
+    top: 5px;
+}
+
+#renderOutput {
+    z-index: 4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
